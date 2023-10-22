@@ -1,3 +1,6 @@
+#Author: @doveyQ
+#Example: Invoke-AESEncryption [-path "<path>"] [-mode "Encrypt/Decrypt"] [-key "<key>"]
+
 function Invoke-AESEncryption {
     [CmdletBinding()]
     [OutputType([string])]
